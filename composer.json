@@ -1,0 +1,38 @@
+{
+    "name": "adamgoredev/uploads-proxy",
+    "description": "Uploads Proxy fetches production images to development server on demand",
+    "type": "craft-plugin",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "uploads proxy",
+        "sync uploads",
+        "sync images"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Gore",
+            "homepage": "https://github.com/adamgoredev"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^5.0.0",
+        "php": "^8.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "adamgoredev\\uploadsproxy\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Uploads Proxy",
+        "handle": "uploads-proxy",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://github.com/adamgoredev/uploads-proxy/blob/main/CHANGELOG.md",
+        "class": "adamgoredev\\uploadsproxy\\UploadsProxy"
+    }
+}
