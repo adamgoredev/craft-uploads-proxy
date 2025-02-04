@@ -1,5 +1,6 @@
 {
     "name": "adamgoredev/uploads-proxy",
+    "version": "1.0.0",
     "description": "Uploads Proxy fetches production images to development server on demand",
     "type": "craft-plugin",
     "keywords": [
@@ -36,3 +37,4 @@
         "class": "adamgoredev\\uploadsproxy\\UploadsProxy"
     }
 }
+

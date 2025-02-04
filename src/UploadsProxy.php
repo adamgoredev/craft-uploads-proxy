@@ -74,14 +74,7 @@ class UploadsProxy extends Plugin
             false
         );
 
-        Craft::info(
-            Craft::t(
-                'uploads-proxy',
-                '{name} plugin loaded',
-                ['name' => $this->name]
-            ),
-            __METHOD__
-        );
+        Craft::info($this->name . ' plugin loaded', __METHOD__);
     }
 
     private function processAsset($event)
