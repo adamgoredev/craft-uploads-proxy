@@ -1,6 +1,6 @@
 {
   "pluginName": "Uploads Proxy",
-  "pluginDescription": "Uploads Proxy is a convenient solution for fetching production uploads (images) to a development server on demand. Installed on a live Craft CMS site, it allows you to avoid manually downloading images when setting up a development environment. Instead of downloading the images, you simply add the production domain to your .env file, and the plugin will automatically proxy pull the images into your development site. This saves time and disk space by fetching only the images needed, without the hassle of managing them manually. You should not enable this plugin in a production environment.",
+  "pluginDescription": "Uploads Proxy is a convenient solution for fetching production uploads (images) to a development server on demand. Installed on a live Craft CMS site, it allows you to avoid manually downloading images when setting up a development environment. Instead of downloading the images, you simply add the production domain to your .env file, and the plugin will automatically proxy pull the images into your development site. This saves time and disk space by fetching only the images needed, without the hassle of managing them manually.",
   "pluginVersion": "1.0.0",
   "pluginAuthorName": "Adam Gore",
   "pluginVendorName": "Adam Gore",

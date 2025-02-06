@@ -1,5 +1,5 @@
 {
-    "name": "adamgoredev/uploads-proxy",
+    "name": "adamgoredev/craft-uploads-proxy",
     "version": "1.0.0",
     "description": "Uploads Proxy fetches production images to development server on demand",
     "type": "craft-plugin",
@@ -33,8 +33,7 @@
         "handle": "uploads-proxy",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://github.com/adamgoredev/uploads-proxy/blob/main/CHANGELOG.md",
+        "changelogUrl": "https://github.com/adamgoredev/craft-uploads-proxy/blob/main/CHANGELOG.md",
         "class": "adamgoredev\\uploadsproxy\\UploadsProxy"
     }
 }
-
