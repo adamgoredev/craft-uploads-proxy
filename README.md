@@ -1,10 +1,10 @@
-# Craft Uploads Proxy plugin for Craft CMS 5.x
+# Craft Uploads Proxy plugin for Craft CMS 4.x and 5.x
 
 Uploads Proxy is a convenient solution for fetching production uploads (images) to a development server on demand. Installed on a live Craft CMS site, it allows you to avoid manually downloading images when setting up a development environment. Instead of downloading the images, you simply add the production domain to your .env file, and the plugin will automatically proxy pull the images into your development site. This saves time and disk space by fetching only the images needed, without the hassle of managing them manually.",
 
 ## Requirements
 
-This plugin requires Craft CMS 5.0.0 or later.
+This plugin requires Craft CMS 4.0.0 or later.
 
 ## Installation
 

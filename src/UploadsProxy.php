@@ -1,6 +1,6 @@
 <?php
 /**
- * Uploads Proxy plugin for Craft CMS 3.x
+ * Uploads Proxy plugin for Craft CMS 4.x and 5.x
  *
  * Uploads Proxy is a general solution for getting production images on a development server on demand.
  *
@@ -81,13 +81,13 @@ class UploadsProxy extends Plugin
     {
         $remoteSource = getenv("UPLOADS_PROXY_REMOTE");
         $assetBaseFolder = getenv("UPLOADS_PROXY_BASE_FOLDER") ?: '';
-        $path = str_replace('@webroot', '', $event->asset->getVolume()->getFs()->path);
+        $path = str_replace('@webroot', '', (string)$event->asset->getVolume()->getFs()->path);
 
         Craft::info("Remote Source: $remoteSource", __METHOD__);
         Craft::info("Asset Path: $path", __METHOD__);
 
         if ($remoteSource) {
-            $filename = $event->asset->path;
+            $filename = (string)$event->asset->path;
             $localeFilePath = trim($assetBaseFolder . '/' . $path, '/') . '/' . $filename;
             $fileDirectory = dirname($localeFilePath);
 
