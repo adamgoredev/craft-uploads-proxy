@@ -4,8 +4,9 @@
  *
  * Uploads Proxy is a general solution for getting production images on a development server on demand.
  *
- * @link      liftov.be
- * @copyright Copyright (c) 2019 Adam Gore
+ * @link      github.com/adamgoredev/craft-uploads-proxy
+ * @copyright Copyright (c) 2025 Adam Gore
+ * @version   1.0.1
  */
 
 namespace adamgoredev\uploadsproxy;
